@@ -41,6 +41,7 @@ class _TransactionAddItemState extends State<TransactionAddItem> {
                       borderRadius: BorderRadius.circular(15),
                     ),
                     focusedBorder: OutlineInputBorder(
+                      gapPadding: 10,
                       borderSide: const BorderSide(width: 3, color: Colors.grey),
                       borderRadius: BorderRadius.circular(15),
                     )),
