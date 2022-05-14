@@ -3,8 +3,21 @@ import 'package:flutter/material.dart';
 class ProductAddItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
+        backgroundColor: Colors.grey,
+        // floatingActionButton: FloatingActionButton.extended(
+        //   backgroundColor: colorBlue,
+        //   splashColor: Color.fromARGB(255, 82, 128, 255),
+        //   onPressed: () {},
+        //   label: Text('Add Product'),
+        //   icon: Icon(Icons.add),
+        // ),
         appBar: AppBar(
-          title: Text('Add Item'),
+          leading: Icon(Icons.arrow_back_ios_new_outlined, color: Colors.black),
+          title: Text(
+            'Add Product',
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 30),
+          ),
+          backgroundColor: Colors.grey,
           centerTitle: true,
         ),
         body: Padding(
