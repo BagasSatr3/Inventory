@@ -30,7 +30,7 @@ class ProductAddItem extends StatelessWidget {
               children: [
                 Text(
                   'Product Information',
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold, color: Colors.tealAccent),
+                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold, color: Colors.greenAccent),
                 ),
                 Divider(
                   height: 8,
