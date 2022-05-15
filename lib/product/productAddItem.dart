@@ -39,7 +39,7 @@ class _ProductAddItemState extends State<ProductAddItemA> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar( backgroundColor: Colors.grey,
+      backgroundColor: Colors.grey,
       // floatingActionButton: FloatingActionButton.extended(
       //   backgroundColor: colorBlue,
       //   splashColor: Color.fromARGB(255, 82, 128, 255),
