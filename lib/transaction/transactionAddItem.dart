@@ -37,10 +37,12 @@ class _TransactionAddItemState extends State<TransactionAddItem> {
                 decoration: InputDecoration(
                     labelText: 'Enter Product Name',
                     enabledBorder: OutlineInputBorder(
+                      gapPadding: 10,
                       borderSide: const BorderSide(width: 3, color: Colors.grey),
                       borderRadius: BorderRadius.circular(15),
                     ),
                     focusedBorder: OutlineInputBorder(
+                      gapPadding: 10,
                       borderSide: const BorderSide(width: 3, color: Colors.grey),
                       borderRadius: BorderRadius.circular(15),
                     )),
