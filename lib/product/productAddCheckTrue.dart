@@ -36,7 +36,7 @@ class ProductAddCheckTrue extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => product()),
+                  MaterialPageRoute(builder: (context) => Product()),
                 );
               },
             ),
