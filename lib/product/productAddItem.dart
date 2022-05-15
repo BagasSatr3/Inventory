@@ -137,11 +137,11 @@ class ProductAddItem extends StatelessWidget {
                     children: [
                       Text(
                         'Low Stock Warning',
-                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.tealAccent),
+                        style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20, color: Colors.greenAccent),
                       ),
                       Text(
                         'Change Value to 0 for disable low stock warning',
-                        style: TextStyle(color: Colors.tealAccent),
+                        style: TextStyle(color: Colors.grey),
                       ),
                       SizedBox(height: 10),
                       Divider(
