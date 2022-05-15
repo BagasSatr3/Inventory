@@ -5,7 +5,7 @@ class ProductAddItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.white,
       // floatingActionButton: FloatingActionButton.extended(
       //   backgroundColor: colorBlue,
       //   splashColor: Color.fromARGB(255, 82, 128, 255),
