@@ -39,22 +39,8 @@ class _ProductAddItemState extends State<ProductAddItemA> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
-      // floatingActionButton: FloatingActionButton.extended(
-      //   backgroundColor: colorBlue,
-      //   splashColor: Color.fromARGB(255, 82, 128, 255),
-      //   onPressed: () {},
-      //   label: Text('Add Product'),
-      //   icon: Icon(Icons.add),
-      // ),
       appBar: AppBar(
-        leading: Icon(Icons.arrow_back_ios_new_outlined, color: Colors.black),
-        title: Text(
-          'Add Product',
-          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 30),
-        ),
-        backgroundColor: Colors.grey,
-        centerTitle: true,
+        title: const Text('Kindacode.com'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(30.0),
