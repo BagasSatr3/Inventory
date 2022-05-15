@@ -187,7 +187,12 @@ class ProductAddItem extends StatelessWidget {
             ),
             child: TextButton(
               style: TextButton.styleFrom(shadowColor: Colors.orangeAccent, backgroundColor: Colors.orangeAccent, primary: Colors.white, shape: StadiumBorder()),
-              onPressed: () => {},
+              onPressed: () => {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => ProductAddItem()),
+                )
+              },
               child: Text(
                 'Add Product',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
