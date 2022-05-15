@@ -175,7 +175,22 @@ class Main extends StatelessWidget {
                             size: 40,
                             color: Colors.red,
                           ),
-                        ])
+                        ]),
+                        Align(
+                          alignment: Alignment.bottomRight,
+                          child: RaisedButton.icon(
+                            color: Colors.green,
+                            label: Text('New Transaction', style: const TextStyle(fontSize: 15)),
+                            icon: Icon(Icons.add),
+                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(32.0))),
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => TransactionAddItem()),
+                              );
+                            },
+                          ),
+                        )
                       ],
                     ),
                   ])
@@ -215,21 +230,6 @@ class Main extends StatelessWidget {
                               color: Colors.red,
                             ),
                           ]),
-                          Align(
-                            alignment: Alignment.bottomRight,
-                            child: RaisedButton.icon(
-                              color: Colors.green,
-                              label: Text('New Transaction', style: const TextStyle(fontSize: 15)),
-                              icon: Icon(Icons.add),
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(32.0))),
-                              onPressed: () {
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(builder: (context) => TransactionAddItem()),
-                                );
-                              },
-                            ),
-                          )
                         ],
                       ),
                     ],
