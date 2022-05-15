@@ -223,13 +223,6 @@ class Main extends StatelessWidget {
                                   MaterialPageRoute(builder: (context) => TransactionDetail()),
                                 );
                               }),
-                          Row(children: <Widget>[
-                            Icon(
-                              Icons.arrow_upward,
-                              size: 40,
-                              color: Colors.red,
-                            ),
-                          ]),
                         ],
                       ),
                     ],
