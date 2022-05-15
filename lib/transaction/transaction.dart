@@ -121,44 +121,21 @@ class Main extends StatelessWidget {
                         color: Colors.red,
                       ),
                     ]),
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        Text('Demon Core', textAlign: TextAlign.left, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                        RaisedButton(
-                            child: Text('Stok 1'),
-                            color: Colors.red,
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(16.0))),
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => TransactionDetail()),
-                              );
-                            }),
-                        Row(children: <Widget>[
-                          Icon(
-                            Icons.arrow_upward,
-                            size: 40,
-                            color: Colors.red,
-                          ),
-                        ]),
-                        Align(
-                          alignment: Alignment.bottomRight,
-                          child: RaisedButton.icon(
-                            color: Colors.green,
-                            label: Text('New Transaction', style: const TextStyle(fontSize: 15)),
-                            icon: Icon(Icons.add),
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(32.0))),
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => TransactionAddItem()),
-                              );
-                            },
-                          ),
-                        )
-                      ],
-                    ),
+                    Align(
+                      alignment: Alignment.bottomRight,
+                      child: RaisedButton.icon(
+                        color: Colors.green,
+                        label: Text('New Transaction', style: const TextStyle(fontSize: 15)),
+                        icon: Icon(Icons.add),
+                        shape: RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(32.0))),
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => TransactionAddItem()),
+                          );
+                        },
+                      ),
+                    )
                   ],
                 ),
               ])
