@@ -1,10 +1,10 @@
-# hello_world
+# Halo yang liat
 
-A new Flutter project.
+Ini adalah tugas dari webinar saya
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Project ini menggunakan flutter
 
 A few resources to get you started if this is your first Flutter project:
 
